@@ -58,5 +58,4 @@ if (port == null || port == "") {
   port = 3000;
 }
 
-
 app.listen(port, () => console.log(`Server has started successfully ${port}!`));
